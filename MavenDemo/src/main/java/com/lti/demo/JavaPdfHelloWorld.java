@@ -14,7 +14,7 @@ public class JavaPdfHelloWorld {
 	      {
 	         PdfWriter writer = PdfWriter.getInstance(document, new FileOutputStream("HelloWorld.pdf"));
 	         document.open();
-	         document.add(new Paragraph("A Hello World PDF document."));
+	         document.add(new Paragraph("Namaste world"));
 	         document.close();
 	         writer.close();
 	      } catch (DocumentException e)
